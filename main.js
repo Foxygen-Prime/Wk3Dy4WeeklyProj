@@ -1,0 +1,1 @@
+// set up a loop that creates a new variable every time a button is pushed. This should probably be something like a temp variable. If only working with two nubers, youll need to variables sets. maybe make up to 4 or 5 variable sets?//

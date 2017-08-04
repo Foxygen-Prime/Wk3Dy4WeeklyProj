@@ -121,7 +121,7 @@ pressC.addEventListener("click", butentryC);
 
 function butentryC() {
   console.log("Clear!");
-  result.innerHTML = "Cleared! Please feed me numbers! :D";
+  result.innerHTML = "";
 }
 
 //+//
@@ -142,13 +142,13 @@ function butentryminus() {
   result.innerHTML += "-";
 }
 
-//-//
+//X//
 pressmult = document.getElementById("butmult");
 pressmult.addEventListener("click", butentrymult);
 
 function butentrymult() {
   console.log("multiply");
-  result.innerHTML += "X";
+  result.innerHTML += "*";
 }
 //divide//
 pressdiv = document.getElementById("butdiv");
@@ -161,19 +161,18 @@ function butentrydiv() {
 
 
 //equals//
+
 pressequals = document.getElementById("butequals");
 pressequals.addEventListener("click", butentryequals);
 
 function butentryequals() {
-  console.log("equals");
-eval(tempentry)
+  result.innerHTML = eval(result.innerHTML)
 }
 
 //End of Button EVENT LISTENERS//
 
 //Button Entry Storage//
 
-let tempentry = result.innerHTML
 
 
 ///COMPUTATIONS///

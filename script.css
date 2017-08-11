@@ -1,0 +1,80 @@
+
+
+.container {
+  width: 620px;
+  height: 600px;
+  border: 5px solid #23A3AB;
+  border-radius: 5px;
+  box-shadow: 7px 7px 5px #23A3AB;
+  padding: 25px;
+  margin: 25px;
+  background-color: #00D291;
+
+}
+
+#result {
+  font-family: 'Lato', sans-serif;
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+  line-height: 6.4;
+  flex-basis: 60%;
+  width:400px;
+  height:200px;
+}
+
+#boxo {
+
+  width:400px;
+  height:200px;
+  background-color: #d8c9c9;
+  border-radius: 5px;
+
+}
+
+.tomHiddleston {
+    border: 5px solid #23A3AB;
+    height: 277px;
+    background: url(http://6.darkroom.shortlist.com/980/4793f6650ffe23beee7e75a2aa618ff5:63f9412aa9f94e243b1d00d3f093bd95/4.jpg);
+    float: right;
+    flex-basis: 30%;
+  /*hunkentry*/
+  display: flex;
+
+}
+
+.class {
+
+}
+
+.buttons {
+  width: 75px;
+  height: 75px;
+  font-size: 30px;
+  font-weight: bold;
+  border: 3px solid #603dba;
+  border-radius: 5px;
+  box-shadow: 3px 3px 15px #4A5BCE;
+  padding: 10px;
+  margin: 12px;
+  background-color: #5F29E3;
+}
+
+#row1 {
+  height: 200px;
+  display: flex;
+  padding-bottom: 10px;
+
+  justify-content: space-between;
+}
+
+#butequals {
+  width: 400px;
+  height: 75px;
+
+}
+
+#equals {
+  display: flex;
+  justify-content: space-around;
+}
